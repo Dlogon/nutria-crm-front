@@ -1,6 +1,7 @@
 import { resolve } from "path";
 
 export default defineNuxtConfig({
+  modules: ["@pinia/nuxt"],
   devtools: { enabled: true },
   alias: {
     "@": resolve(__dirname, "/"),
