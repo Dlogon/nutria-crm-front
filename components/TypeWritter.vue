@@ -4,8 +4,16 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts">
 
+export default {
+  props: {
+    text: {
+      type: String,
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
