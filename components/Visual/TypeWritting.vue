@@ -1,5 +1,5 @@
 <template>
-    <div className="typewriter">
+    <div class="typewriter">
         <p>{{ text }}</p>
     </div>
 </template>
