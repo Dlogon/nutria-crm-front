@@ -2,8 +2,8 @@
     <div className="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
         <div>
             <NuxtLink to="/login">
-                <img src="./../assets/image/crmlogo.png" alt='crm logo' width="450" height="200" />
-                <TypeWritting text='Press here to login '></TypeWritting>
+                <img src="@/assets/image/crmlogo.png" alt='crm logo' width="450" height="200" />
+                <VisualTypeWritting text="Welcome to CRM" />
             </NuxtLink>
         </div>
 
